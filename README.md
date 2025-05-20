@@ -38,13 +38,13 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
 ## 🛠️ Configuration
 
 1. \*\*Project Folder
-   Place the `Proj3` directory under `xampp/htdocs/`.
+   Place the `front&back_End` directory under `xampp/htdocs/`.
 
    ````text
    xampp/
    └── htdocs/
-       └── Proj3/
-           ├── dataset/           # Contains CSV data files (e.g., ITEM.csv, etc.)
+       └── front&back_End/
+           ├── dataset/           # Contains CSV data files (e.g., ITEM.csv, etc.) Place the dataset here!
            ├── menu.php
            ├── add_item.php
            ├── list_items.php
@@ -65,7 +65,7 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    Navigate to:
 
    ```url
-   http://localhost/Proj3/menu.php
+   http://localhost/front&back_End/menu.php
    ```
 3. **Menu Options**
 
