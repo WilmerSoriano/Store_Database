@@ -1,8 +1,10 @@
 <?php
+// Safely grab the choice — if it isn't set yet, $option will be null
+$option = isset($_POST['choice']) ? (int)$_POST['choice'] : null;
 
-if ($_POST['choice']) {
+if ($option !== null) {
 	// print ($_POST['choice']);
-    $option=$_POST['choice'];
+    //$option=$_POST['choice'];
     switch ($option) {
         case 1: 
             header( "Location: http://localhost/Proj3/SearchItem.php");
@@ -25,7 +27,7 @@ if ($_POST['choice']) {
 }
 else {
 	echo <<<END
-    ==== Item options === <br>
+    ===== Item options ==== <br>
     1. Search Item <br>
     2. Insert New Item <br>
     3. Update Item <br>
