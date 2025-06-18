@@ -26,12 +26,13 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    * Click **Start** next to **Apache**.
    * Click **Start** next to **MySQL**.
 
-3. **Database Setup**
+3. **Database Setup (Requires you to know how to add Data set into MySQL)**
 
    1. Open **phpMyAdmin** ([http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
-   2. Create a new database named `store_db`.
-   3. Import the provided `store_schema.sql` to create the `ITEM` table.
-   4. In the `ITEM` table, set the `iId` column as **INT, PRIMARY KEY, AUTO\_INCREMENT**.
+   2. Create a new database named `bestprice`.
+   3. Import the provided `DDL.sql` to create the `ITEM` table.
+   4. (OPTIONAL)In the `ITEM` table, set the `iId` column as **INT, PRIMARY KEY, AUTO\_INCREMENT**.
+      (This just make searching new item easier when using ID)
 
 ---
 
