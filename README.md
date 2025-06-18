@@ -34,6 +34,9 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    4. (OPTIONAL)In the `ITEM` table, set the `iId` column as **INT, PRIMARY KEY, AUTO\_INCREMENT**.
       (This just make searching new item easier when using ID)
 
+**Final set up should look like**  
+![How it look like at the end](FinalSetUp.png)
+
 ---
 
 ## 🛠️ Configuration
@@ -76,6 +79,9 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    2. **Update Item** – Modify existing records by `iId`.
    3. **Delete Item** – Remove a record by `iId`.
    4. **List Items** – View all current items and recent changes.
+
+![the main menu](mainMenu.png)
+![Search Item view](searchItem.png)
 
 ---
 
