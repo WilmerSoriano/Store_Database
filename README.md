@@ -35,7 +35,8 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    4. (OPTIONAL)In the `ITEM` table, set the `iId` column as **INT, PRIMARY KEY, AUTO\_INCREMENT**.
       (This just make searching new item easier when using ID)
    (Here a video guide on how to import SQL file into phpMyAdmin: [https://youtu.be/OEyr-evubS8?si=RVhBEgi4sqhKX-ee](https://youtu.be/OEyr-evubS8?si=RVhBEgi4sqhKX-ee))
-**Final set up should look like**  
+
+**Final set up should look like this!**  
 ![How it look like at the end](/assets/FinalSetUp.png)
 
 ---
