@@ -15,7 +15,7 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
 
 ---
 
-## 📥 Prerequisites
+## 📥 Requirements 
 
 1. **Download & Install XAMPP**
    Get XAMPP v3.3.0 (or later) from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
@@ -27,14 +27,14 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    * Click **Start** next to **Apache**.
    * Click **Start** next to **MySQL**.
 
-3. **Database Setup (Requires you to know how to add Data set into MySQL)**
+3. **Database Setup (how to add Data set into MySQL)**
 
    1. Open **phpMyAdmin** ([http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
    2. Create a new database named `bestprice`.
    3. Import the provided `DDL.sql` to create the `ITEM` table.
    4. (OPTIONAL)In the `ITEM` table, set the `iId` column as **INT, PRIMARY KEY, AUTO\_INCREMENT**.
       (This just make searching new item easier when using ID)
-
+   (Here a video guide on how to import SQL file into phpMyAdmin: [https://youtu.be/OEyr-evubS8?si=RVhBEgi4sqhKX-ee](https://youtu.be/OEyr-evubS8?si=RVhBEgi4sqhKX-ee))
 **Final set up should look like**  
 ![How it look like at the end](/assets/FinalSetUp.png)
 
