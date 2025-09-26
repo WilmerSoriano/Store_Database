@@ -1,6 +1,7 @@
 # Store\_Database Web Application
 
 A simple inventory management system that demonstrates using MySQL with a PHP/HTML frontend on an XAMPP server. Import and manage data extracted from `.xlsx` files directly in your browser.
+![the main menu](/assets/mainMenu.png)
 
 ---
 
@@ -35,7 +36,7 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
       (This just make searching new item easier when using ID)
 
 **Final set up should look like**  
-![How it look like at the end](FinalSetUp.png)
+![How it look like at the end](/assets/FinalSetUp.png)
 
 ---
 
@@ -80,8 +81,8 @@ A simple inventory management system that demonstrates using MySQL with a PHP/HT
    3. **Delete Item** – Remove a record by `iId`.
    4. **List Items** – View all current items and recent changes.
 
-![the main menu](mainMenu.png)
-![Search Item view](searchItem.png)
+![the main menu](/assets/mainMenu.png)
+![Search Item view](/assets/searchItem.png)
 
 ---
 
