@@ -8,7 +8,7 @@ class Service {
 	/* NOTE: used to test the dataBase*/
 	function fetchAllitems() {
 		if(isset($_POST['exit'])){ //return to menu
-			header( "Location: http://localhost/Proj3/menu.php");
+			header( "Location: http://localhost/Store_Database/front&back_End/menu.php");
 			exit;
 		}
 		
@@ -30,7 +30,7 @@ class Service {
 
 	function SearchItem() {
 		if(isset($_POST['exit'])){ //return to menu
-			header( "Location: http://localhost/Proj3/menu.php");
+			header( "Location: http://localhost/Store_Database/front&back_End/menu.php");
 		}
 
 		$input = $_POST['input']; //connect to the dataBase.
@@ -61,7 +61,7 @@ class Service {
 	*/
 	function InsertItem() {
 		if (isset($_POST['exit'])) {
-			 header( "Location: http://localhost/Proj3/menu.php");
+			 header( "Location: http://localhost/Store_Database/front&back_End/menu.php");
 			 exit;// exit was added to prevent menu button from adding ID number without name
 			}
 
@@ -84,7 +84,7 @@ class Service {
 
   function updateItem(){
 		if (isset($_POST['exit'])){
-			header( "Location: http://localhost/Proj3/menu.php");
+			header( "Location: http://localhost/Store_Database/front&back_End/menu.php");
 		}
 
 		$iId = $_POST['iId'];
@@ -103,7 +103,7 @@ class Service {
 
 	function deleteItem() {
 		if(isset($_POST['exit'])){
-			header( "Location: http://localhost/Proj3/menu.php");
+			header( "Location: http://localhost/Store_Database/front&back_End/menu.php");
 		}
 		
 		$input = $_POST['input'];
